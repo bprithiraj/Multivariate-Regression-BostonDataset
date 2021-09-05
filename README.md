@@ -1,1 +1,6 @@
 # Multivariate-Regression-BostonDataset
+This is a regression problem performed using **Stochastic Gradient Descent** 
+
+#**Stochastic Gradient Descent** 
+
+In this algorithm, we repeatedly run through the training set, and each time we encounter a training example, we update the parameters according to the gradient of the error with respect to that single training example only. This algorithm is called stochastic gradient descent (also incremental gradient descent). Whereas batch gradient descent has to scan through the entire training set before taking a single step—a costly operation if n is large—stochastic gradient descent can start making progress right away, and continues to make progress with each example it looks at. Often, stochastic gradient descent gets θ “close” to the minimum much faster than batch gra- dient descent. (Note however that it may never “converge” to the minimum, and the parameters θ will keep oscillating around the minimum of J(θ); but in practice most of the values near the minimum will be reasonably good approximations to the true minimum.2) For these reasons, particularly when the training set is large, stochastic gradient descent is often preferred over batch gradient descent.
